@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [[ -n "${1}" || -n "${2}" ]]; then
+   USER_NAME=${1}
+   USER_EMAIL=${2}
+else
+   USER_NAME="James Percent"
+   USER_EMAIL="james@shift5.net"
+fi
+
+git config --global user.name "${USER_NAME}"
+git config --global user.email "${USER_EMAIL}"
+git config --global color.status auto
+git config --global color.diff auto
+git config --global color.branch auto
+git config --global color.interactive auto
