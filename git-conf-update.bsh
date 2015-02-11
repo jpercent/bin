@@ -1,9 +1,8 @@
 #!/bin/sh
 
-usage="usage: git-identiy-fix.bsh <existing_email> <new_email> <name>"
+usage="usage: git-conf-update.bsh <existing_email> <new_email> <name>"
 
 if [[ -z "$1" || -z "$2" || -z "$3" ]]; then
-#if [ -z "$1" 
     echo "$usage"
     exit 1
 fi
