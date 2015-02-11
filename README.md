@@ -1,2 +1,3 @@
-# scripts
-Scripts
+# Bin
+Personal scripts I use frequently.
+
